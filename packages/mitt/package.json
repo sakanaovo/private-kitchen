@@ -1,0 +1,12 @@
+{
+  "name": "@sakana/mitt",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "./src/index.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
