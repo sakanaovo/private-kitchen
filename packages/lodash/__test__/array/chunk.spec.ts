@@ -1,4 +1,3 @@
-import { chunk } from "./../../src/array/chunk";
 import { describe, it, expect } from "vitest";
 import _ from "../../src";
 
@@ -17,10 +16,10 @@ describe("chunk#", () => {
 
     expect(_.chunk(arr, 3)).toEqual([["a", "b", "c"], ["d"]]);
 
-    expect(chunk([arr], -1)).toEqual([]);
+    expect(_.chunk([arr], -1)).toEqual([]);
 
-    expect(chunk(arr, 0)).toEqual([]);
+    expect(_.chunk(arr, 0)).toEqual([]);
 
-    expect(chunk(arr, 5)).toEqual(arr);
+    expect(_.chunk(arr, 5)).toEqual(arr);
   });
 });
