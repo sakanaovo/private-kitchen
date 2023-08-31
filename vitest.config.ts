@@ -14,8 +14,11 @@ export default defineConfig((config) => {
     test: {
       // 包含 packages下所有文件的 __test__ 文件夹下的所有文件
       include,
-      // 排除 packages下所有文件的 node_modules 和 dist 文件夹
-      exclude: ["./packages/**/{node_modules,dist}/**"],
+      // 排除 packages examples下所有文件的 node_modules 和 dist 文件夹
+      exclude: [
+        "./packages/**/{node_modules,dist}/**",
+        "./examples/**/{node_modules,dist}/**",
+      ],
     },
   };
 });
