@@ -1,8 +1,9 @@
-import { chunk, compact } from "./array";
+import { chunk, compact, concat } from "./array";
 
 const array = {
   chunk,
   compact,
+  concat,
 };
 
 export default {
