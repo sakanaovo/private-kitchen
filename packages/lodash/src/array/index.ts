@@ -5,3 +5,4 @@ export * from "./difference";
 export * from "./drop";
 export * from "./dropWhile";
 export * from "./fill";
+export * from "./findIndex";

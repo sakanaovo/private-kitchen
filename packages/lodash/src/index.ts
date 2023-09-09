@@ -6,6 +6,7 @@ import {
   drop,
   dropWhile,
   fill,
+  findIndex,
 } from "./array";
 
 const array = {
@@ -16,6 +17,7 @@ const array = {
   drop,
   dropWhile,
   fill,
+  findIndex,
 };
 
 export default {
