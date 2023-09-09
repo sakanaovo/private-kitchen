@@ -1,4 +1,4 @@
-import { chunk, compact, concat, difference, drop } from "./array";
+import { chunk, compact, concat, difference, drop, dropWhile } from "./array";
 
 const array = {
   chunk,
@@ -6,6 +6,7 @@ const array = {
   concat,
   difference,
   drop,
+  dropWhile,
 };
 
 export default {
