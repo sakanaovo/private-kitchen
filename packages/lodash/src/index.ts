@@ -8,6 +8,7 @@ import {
   fill,
   head,
   findIndex,
+  indexOf,
 } from "./array";
 
 const array = {
@@ -21,6 +22,7 @@ const array = {
   findIndex,
   head,
   first: head,
+  indexOf,
 };
 
 export default {

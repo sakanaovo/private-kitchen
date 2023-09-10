@@ -7,3 +7,4 @@ export * from "./dropWhile";
 export * from "./fill";
 export * from "./findIndex";
 export * from "./head";
+export * from "./indexOf";
