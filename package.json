@@ -24,7 +24,9 @@
     "vitest",
     "sakana",
     "monorepo",
-    "vue"
+    "vue",
+    "typescript",
+    "javascript"
   ],
   "devDependencies": {
     "vitest": "^0.34.2"
