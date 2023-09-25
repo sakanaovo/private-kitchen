@@ -9,6 +9,7 @@ import {
   head,
   findIndex,
   indexOf,
+  intersection,
 } from "./array";
 
 const array = {
@@ -23,6 +24,7 @@ const array = {
   head,
   first: head,
   indexOf,
+  intersection,
 };
 
 export default {
